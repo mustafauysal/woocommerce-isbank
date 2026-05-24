@@ -29,15 +29,34 @@ class WC_Isbank_Request {
 	public function send( $nodes ) {
 		$request = $this->create_xml( $nodes );
 
-		$ch = curl_init();
-		curl_setopt( $ch, CURLOPT_URL, $this->url );
-		curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-		curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 1 );
-		curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
-		curl_setopt( $ch, CURLOPT_TIMEOUT, 90 );
-		curl_setopt( $ch, CURLOPT_POSTFIELDS, $request );
-		$result = curl_exec( $ch );
+		$response = wp_remote_post(
+			$this->url,
+			array(
+				'timeout'   => 90,
+				'sslverify' => true,
+				'headers'   => array(
+					'Content-Type' => 'application/xml; charset=UTF-8',
+				),
+				'body'      => $request,
+			)
+		);
 
-		return simplexml_load_string( $result );
+		if ( is_wp_error( $response ) ) {
+			return $response;
+		}
+
+		$result = wp_remote_retrieve_body( $response );
+
+		if ( empty( $result ) ) {
+			return new WP_Error( 'isbank_empty_response', __( 'Banka boş yanıt döndürdü.', 'wc-isbank' ) );
+		}
+
+		$xml = simplexml_load_string( $result );
+
+		if ( false === $xml ) {
+			return new WP_Error( 'isbank_invalid_response', __( 'Banka yanıtı okunamadı.', 'wc-isbank' ) );
+		}
+
+		return $xml;
 	}
 }

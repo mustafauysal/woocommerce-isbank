@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Isbank 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-18 13:39+0300\n"
+"PO-Revision-Date: 2026-05-18 13:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Codex\n"
+
+msgid "Ödeme bilgileri kontrol edilirken bir sorun oluştu. Lütfen tekrar deneyin."
+msgstr "Ödeme bilgileri kontrol edilirken bir sorun oluştu. Lütfen tekrar deneyin."
+
+msgid "Eklentiyi aktif etmek için WooCommerce gerekli."
+msgstr "Eklentiyi aktif etmek için WooCommerce gerekli."
+
+msgid "Aktivasyon hatası - WC İşbank"
+msgstr "Aktivasyon hatası - WC İşbank"
+
+msgid "Kredi Kartı"
+msgstr "Kredi Kartı"
+
+msgid "Türkiye İş Bankası - WooCommerce"
+msgstr "Türkiye İş Bankası - WooCommerce"
+
+#, php-format
+msgid "Oturumunuzun süresi doldu. <a href=\"%s\" class=\"wc-backward\">Mağazaya geri dön</a>"
+msgstr "Oturumunuzun süresi doldu. <a href=\"%s\" class=\"wc-backward\">Mağazaya geri dön</a>"
+
+msgid "Bu ödeme bağlantısı doğrudan açılamaz."
+msgstr "Bu ödeme bağlantısı doğrudan açılamaz."
+
+msgid "Ödeme sonucundaki sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr "Ödeme sonucundaki sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+
+msgid "Ödeme doğrulaması güvenlik nedeniyle tamamlanamadı. Lütfen tekrar deneyin."
+msgstr "Ödeme doğrulaması güvenlik nedeniyle tamamlanamadı. Lütfen tekrar deneyin."
+
+msgid "İş Bankası callback hash doğrulaması başarısız."
+msgstr "İş Bankası callback hash doğrulaması başarısız."
+
+msgid "Ödeme bilgileri siparişle eşleşmedi. Lütfen tekrar deneyin."
+msgstr "Ödeme bilgileri siparişle eşleşmedi. Lütfen tekrar deneyin."
+
+msgid "İş Bankası callback tutar, para birimi veya üye işyeri numarası eşleşmedi."
+msgstr "İş Bankası callback tutar, para birimi veya üye işyeri numarası eşleşmedi."
+
+msgid "3D doğrulama tamamlanamadı. Kart bilgilerinin doğruluğunu kontrol edip tekrar deneyin."
+msgstr "3D doğrulama tamamlanamadı. Kart bilgilerinin doğruluğunu kontrol edip tekrar deneyin."
+
+#, php-format
+msgid "İş Bankası 3D doğrulama başarısız. mdStatus: %s"
+msgstr "İş Bankası 3D doğrulama başarısız. mdStatus: %s"
+
+msgid "Banka ile bağlantı kurulamadı. Kartınızdan tahsilat yapılmadı; lütfen biraz sonra tekrar deneyin."
+msgstr "Banka ile bağlantı kurulamadı. Kartınızdan tahsilat yapılmadı; lütfen biraz sonra tekrar deneyin."
+
+#, php-format
+msgid "İş Bankası API bağlantı hatası: %s"
+msgstr "İş Bankası API bağlantı hatası: %s"
+
+msgid "İş Bankası ödemesi başarıyla tamamlandı."
+msgstr "İş Bankası ödemesi başarıyla tamamlandı."
+
+msgid "Ödeme banka tarafından onaylanmadı. Kart bilgilerini kontrol edip tekrar deneyin veya farklı bir kart kullanın."
+msgstr "Ödeme banka tarafından onaylanmadı. Kart bilgilerini kontrol edip tekrar deneyin veya farklı bir kart kullanın."
+
+#, php-format
+msgid "Ödeme tamamlanamadı: %s"
+msgstr "Ödeme tamamlanamadı: %s"
+
+#, php-format
+msgid "İş Bankası ödeme reddi. Response: %1$s, ProcReturnCode: %2$s, ErrMsg: %3$s"
+msgstr "İş Bankası ödeme reddi. Response: %1$s, ProcReturnCode: %2$s, ErrMsg: %3$s"
+
+msgid "Aktif/Deaktif"
+msgstr "Aktif/Deaktif"
+
+msgid "Türkiye İş Bankası Sanal Pos etkinleştir"
+msgstr "Türkiye İş Bankası Sanal Pos etkinleştir"
+
+msgid "Test ortamını aktif et"
+msgstr "Test ortamını aktif et"
+
+msgid "Üye iş yeri numarası"
+msgstr "Üye iş yeri numarası"
+
+msgid "3D Anahtarı"
+msgstr "3D Anahtarı"
+
+msgid "API Kullanıcı Adı"
+msgstr "API Kullanıcı Adı"
+
+msgid "API Kullanıcı Parolası"
+msgstr "API Kullanıcı Parolası"
+
+msgid "Ödeme başlatılamadı. Lütfen siparişi tekrar oluşturun."
+msgstr "Ödeme başlatılamadı. Lütfen siparişi tekrar oluşturun."
+
+msgid "Kart numarası"
+msgstr "Kart numarası"
+
+msgid "Son kullanma tarihi (AA / YYYY)"
+msgstr "Son kullanma tarihi (AA / YYYY)"
+
+msgid "Güvenlik Kodu"
+msgstr "Güvenlik Kodu"
+
+msgid "İş Bankası üzerinden USD ödemelerde American Express kart kullanılamaz. USD siparişler için lütfen Visa veya Mastercard kullanın."
+msgstr "İş Bankası üzerinden USD ödemelerde American Express kart kullanılamaz. USD siparişler için lütfen Visa veya Mastercard kullanın."
+
+msgid "Siparişi onayla"
+msgstr "Siparişi onayla"
+
+msgid "Tüm ödeme bilgi alanlarını doldurmalısın."
+msgstr "Tüm ödeme bilgi alanlarını doldurmalısın."
+
+msgid "Ödeme ayarları veya sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr "Ödeme ayarları veya sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+
+msgid "Kart numarası hatalı görünüyor."
+msgstr "Kart numarası hatalı görünüyor."
+
+msgid "İş Bankası USD ödemelerde American Express kart kabul etmiyor. Lütfen Visa veya Mastercard ile tekrar deneyin."
+msgstr "İş Bankası USD ödemelerde American Express kart kabul etmiyor. Lütfen Visa veya Mastercard ile tekrar deneyin."
+
+msgid "Güvenlik kodu hatalı görünüyor."
+msgstr "Güvenlik kodu hatalı görünüyor."
+
+msgid "Son kullanma tarihini AA / YYYY formatında girmelisin."
+msgstr "Son kullanma tarihini AA / YYYY formatında girmelisin."
+
+msgid "Kart son kullanma ayı hatalı."
+msgstr "Kart son kullanma ayı hatalı."
+
+msgid "Vadesi dolmuş kart ile ödeme yapamazsın."
+msgstr "Vadesi dolmuş kart ile ödeme yapamazsın."
+
+msgid "Banka boş yanıt döndürdü."
+msgstr "Banka boş yanıt döndürdü."
+
+msgid "Banka yanıtı okunamadı."
+msgstr "Banka yanıtı okunamadı."

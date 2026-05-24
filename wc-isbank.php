@@ -6,6 +6,8 @@
  * Version:     1.0.0
  * Author:      Adil Öztaşer
  * License:     GPLv2
+ * Text Domain: wc-isbank
+ * Domain Path: /languages
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -42,6 +44,8 @@ if ( ! class_exists( 'WC_Isbank' ) ) {
 		}
 
 		public function plugins_loaded() {
+			load_plugin_textdomain( 'wc-isbank', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+
 			add_filter( 'woocommerce_payment_gateways', array( $this, 'add_isbank_gateway' ) );
 
 			self::$instance->includes();
@@ -65,6 +69,15 @@ if ( ! class_exists( 'WC_Isbank' ) ) {
                     plugins_url( '/assets/js/checkout.js', __FILE__ ),
                     array('jquery')
 				);
+
+				wp_localize_script(
+					'woocommerce-isbank-js',
+					'WCIsbank',
+					array(
+						'ajaxUrl'      => admin_url( 'admin-ajax.php' ),
+						'genericError' => __( 'Ödeme bilgileri kontrol edilirken bir sorun oluştu. Lütfen tekrar deneyin.', 'wc-isbank' ),
+					)
+				);
 			}
 		}
 
@@ -87,7 +100,7 @@ if ( ! class_exists( 'WC_Isbank' ) ) {
 			if ( false === is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 				wp_die(
 					__( 'Eklentiyi aktif etmek için WooCommerce gerekli.', 'wc-isbank' ),
-					__( 'Aktivasyon hatası - WC İşbank' ),
+					__( 'Aktivasyon hatası - WC İşbank', 'wc-isbank' ),
 					array(
 						'back_link' => true
 					)

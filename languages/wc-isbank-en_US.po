@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Isbank 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-18 13:39+0300\n"
+"PO-Revision-Date: 2026-05-18 13:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Codex\n"
+
+msgid "Ödeme bilgileri kontrol edilirken bir sorun oluştu. Lütfen tekrar deneyin."
+msgstr "Something went wrong while checking your payment details. Please try again."
+
+msgid "Eklentiyi aktif etmek için WooCommerce gerekli."
+msgstr "WooCommerce is required to activate this plugin."
+
+msgid "Aktivasyon hatası - WC İşbank"
+msgstr "Activation error - WC Isbank"
+
+msgid "Kredi Kartı"
+msgstr "Credit Card"
+
+msgid "Türkiye İş Bankası - WooCommerce"
+msgstr "Turkiye Is Bankasi - WooCommerce"
+
+#, php-format
+msgid "Oturumunuzun süresi doldu. <a href=\"%s\" class=\"wc-backward\">Mağazaya geri dön</a>"
+msgstr "Your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+
+msgid "Bu ödeme bağlantısı doğrudan açılamaz."
+msgstr "This payment link cannot be opened directly."
+
+msgid "Ödeme sonucundaki sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr "The order information in the payment response could not be read. Please try again."
+
+msgid "Ödeme doğrulaması güvenlik nedeniyle tamamlanamadı. Lütfen tekrar deneyin."
+msgstr "Payment verification could not be completed for security reasons. Please try again."
+
+msgid "İş Bankası callback hash doğrulaması başarısız."
+msgstr "Isbank callback hash verification failed."
+
+msgid "Ödeme bilgileri siparişle eşleşmedi. Lütfen tekrar deneyin."
+msgstr "The payment details did not match the order. Please try again."
+
+msgid "İş Bankası callback tutar, para birimi veya üye işyeri numarası eşleşmedi."
+msgstr "Isbank callback amount, currency, or merchant number did not match."
+
+msgid "3D doğrulama tamamlanamadı. Kart bilgilerinin doğruluğunu kontrol edip tekrar deneyin."
+msgstr "3D verification could not be completed. Please check your card details and try again."
+
+#, php-format
+msgid "İş Bankası 3D doğrulama başarısız. mdStatus: %s"
+msgstr "Isbank 3D verification failed. mdStatus: %s"
+
+msgid "Banka ile bağlantı kurulamadı. Kartınızdan tahsilat yapılmadı; lütfen biraz sonra tekrar deneyin."
+msgstr "Could not connect to the bank. Your card was not charged; please try again shortly."
+
+#, php-format
+msgid "İş Bankası API bağlantı hatası: %s"
+msgstr "Isbank API connection error: %s"
+
+msgid "İş Bankası ödemesi başarıyla tamamlandı."
+msgstr "Isbank payment completed successfully."
+
+msgid "Ödeme banka tarafından onaylanmadı. Kart bilgilerini kontrol edip tekrar deneyin veya farklı bir kart kullanın."
+msgstr "The payment was not approved by the bank. Please check your card details and try again, or use a different card."
+
+#, php-format
+msgid "Ödeme tamamlanamadı: %s"
+msgstr "Payment could not be completed: %s"
+
+#, php-format
+msgid "İş Bankası ödeme reddi. Response: %1$s, ProcReturnCode: %2$s, ErrMsg: %3$s"
+msgstr "Isbank payment declined. Response: %1$s, ProcReturnCode: %2$s, ErrMsg: %3$s"
+
+msgid "Aktif/Deaktif"
+msgstr "Enable/Disable"
+
+msgid "Türkiye İş Bankası Sanal Pos etkinleştir"
+msgstr "Enable Turkiye Is Bankasi Virtual POS"
+
+msgid "Test ortamını aktif et"
+msgstr "Enable test mode"
+
+msgid "Üye iş yeri numarası"
+msgstr "Merchant number"
+
+msgid "3D Anahtarı"
+msgstr "3D key"
+
+msgid "API Kullanıcı Adı"
+msgstr "API username"
+
+msgid "API Kullanıcı Parolası"
+msgstr "API password"
+
+msgid "Ödeme başlatılamadı. Lütfen siparişi tekrar oluşturun."
+msgstr "Payment could not be started. Please create the order again."
+
+msgid "Kart numarası"
+msgstr "Card number"
+
+msgid "Son kullanma tarihi (AA / YYYY)"
+msgstr "Expiration date (MM / YYYY)"
+
+msgid "Güvenlik Kodu"
+msgstr "Security code"
+
+msgid "İş Bankası üzerinden USD ödemelerde American Express kart kullanılamaz. USD siparişler için lütfen Visa veya Mastercard kullanın."
+msgstr "American Express cards cannot be used for USD payments through Isbank. Please use Visa or Mastercard for USD orders."
+
+msgid "Siparişi onayla"
+msgstr "Place order"
+
+msgid "Tüm ödeme bilgi alanlarını doldurmalısın."
+msgstr "Please fill in all payment information fields."
+
+msgid "Ödeme ayarları veya sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr "Payment settings or order information could not be read. Please try again."
+
+msgid "Kart numarası hatalı görünüyor."
+msgstr "The card number looks invalid."
+
+msgid "İş Bankası USD ödemelerde American Express kart kabul etmiyor. Lütfen Visa veya Mastercard ile tekrar deneyin."
+msgstr "Isbank does not accept American Express cards for USD payments. Please try again with Visa or Mastercard."
+
+msgid "Güvenlik kodu hatalı görünüyor."
+msgstr "The security code looks invalid."
+
+msgid "Son kullanma tarihini AA / YYYY formatında girmelisin."
+msgstr "Please enter the expiration date in MM / YYYY format."
+
+msgid "Kart son kullanma ayı hatalı."
+msgstr "The card expiration month is invalid."
+
+msgid "Vadesi dolmuş kart ile ödeme yapamazsın."
+msgstr "You cannot pay with an expired card."
+
+msgid "Banka boş yanıt döndürdü."
+msgstr "The bank returned an empty response."
+
+msgid "Banka yanıtı okunamadı."
+msgstr "The bank response could not be read."

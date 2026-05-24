@@ -11,3 +11,11 @@
     margin: 0px;
     border-radius: 5px;
 }
+
+.wc-isbank-card-note {
+    clear: both;
+    margin: 0 0 1em;
+    padding: 0.75em 1em;
+    border-left: 4px solid #2271b1;
+    background: #f6f7f7;
+}

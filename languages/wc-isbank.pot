@@ -1,0 +1,210 @@
+# WooCommerce Isbank translations.
+# Copyright (C) 2026
+# This file is distributed under the same license as the WooCommerce Isbank package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Isbank 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-18 13:42+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: xgettext\n"
+
+#: app/public/wp-content/plugins/woocommerce-isbank/wc-isbank.php:78
+msgid ""
+"Ödeme bilgileri kontrol edilirken bir sorun oluştu. Lütfen tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/wc-isbank.php:102
+msgid "Eklentiyi aktif etmek için WooCommerce gerekli."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/wc-isbank.php:103
+msgid "Aktivasyon hatası - WC İşbank"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:21
+msgid "Kredi Kartı"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:22
+msgid "Türkiye İş Bankası - WooCommerce"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:59
+#, php-format
+msgid ""
+"Oturumunuzun süresi doldu. <a href=\"%s\" class=\"wc-backward\">Mağazaya "
+"geri dön</a>"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:88
+msgid "Bu ödeme bağlantısı doğrudan açılamaz."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:95
+msgid "Ödeme sonucundaki sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:102
+msgid ""
+"Ödeme doğrulaması güvenlik nedeniyle tamamlanamadı. Lütfen tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:103
+msgid "İş Bankası callback hash doğrulaması başarısız."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:110
+msgid "Ödeme bilgileri siparişle eşleşmedi. Lütfen tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:111
+msgid ""
+"İş Bankası callback tutar, para birimi veya üye işyeri numarası eşleşmedi."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:120
+msgid ""
+"3D doğrulama tamamlanamadı. Kart bilgilerinin doğruluğunu kontrol edip "
+"tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:121
+#, php-format
+msgid "İş Bankası 3D doğrulama başarısız. mdStatus: %s"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:146
+msgid ""
+"Banka ile bağlantı kurulamadı. Kartınızdan tahsilat yapılmadı; lütfen biraz "
+"sonra tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:147
+#, php-format
+msgid "İş Bankası API bağlantı hatası: %s"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:155
+msgid "İş Bankası ödemesi başarıyla tamamlandı."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:167
+msgid ""
+"Ödeme banka tarafından onaylanmadı. Kart bilgilerini kontrol edip tekrar "
+"deneyin veya farklı bir kart kullanın."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:287
+#, php-format
+msgid "Ödeme tamamlanamadı: %s"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway.php:299
+#, php-format
+msgid ""
+"İş Bankası ödeme reddi. Response: %1$s, ProcReturnCode: %2$s, ErrMsg: %3$s"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:12
+msgid "Aktif/Deaktif"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:14
+msgid "Türkiye İş Bankası Sanal Pos etkinleştir"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:17
+msgid "Test ortamını aktif et"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:21
+msgid "Üye iş yeri numarası"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:25
+msgid "3D Anahtarı"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:29
+msgid "API Kullanıcı Adı"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-fields.php:33
+msgid "API Kullanıcı Parolası"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:16
+msgid "Ödeme başlatılamadı. Lütfen siparişi tekrar oluşturun."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:54
+msgid "Kart numarası"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:67
+msgid "Son kullanma tarihi (AA / YYYY)"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:78
+msgid "Güvenlik Kodu"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:91
+msgid ""
+"İş Bankası üzerinden USD ödemelerde American Express kart kullanılamaz. USD "
+"siparişler için lütfen Visa veya Mastercard kullanın."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:101
+msgid "Siparişi onayla"
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:168
+msgid "Tüm ödeme bilgi alanlarını doldurmalısın."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:175
+msgid "Ödeme ayarları veya sipariş bilgisi okunamadı. Lütfen tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:182
+msgid "Kart numarası hatalı görünüyor."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:189
+msgid ""
+"İş Bankası USD ödemelerde American Express kart kabul etmiyor. Lütfen Visa "
+"veya Mastercard ile tekrar deneyin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:196
+msgid "Güvenlik kodu hatalı görünüyor."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:203
+msgid "Son kullanma tarihini AA / YYYY formatında girmelisin."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:214
+msgid "Kart son kullanma ayı hatalı."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-gateway-form.php:223
+msgid "Vadesi dolmuş kart ile ödeme yapamazsın."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-request.php:51
+msgid "Banka boş yanıt döndürdü."
+msgstr ""
+
+#: app/public/wp-content/plugins/woocommerce-isbank/inc/class-wc-isbank-request.php:57
+msgid "Banka yanıtı okunamadı."
+msgstr ""
